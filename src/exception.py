@@ -1,7 +1,7 @@
 import sys
 
-from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent))
+#from pathlib import Path
+#sys.path.append(str(Path(__file__).parent.parent))
 from src.logger import logging
 
 def error_message_detail(error, error_detail:sys):
